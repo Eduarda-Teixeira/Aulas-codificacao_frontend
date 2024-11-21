@@ -1,0 +1,198 @@
+.alagoas{
+    display: flex;
+    border: 3px solid black;
+    width: 600px;
+}
+
+.alagoas-1{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.alagoas-2{
+    width: 200px;
+    height: 400px;
+    background-image: url(Brasão_de_armas_do_Estado_de_Alagoas.png);
+    background-size: contain; /* pra imagem inteira caber no container*/
+    background-repeat: no-repeat; /*para a imagem não repetir*/
+    background-position: center; /*pra imagem ficar no centro*/
+}
+.alagoas-3{
+    width: 200px;
+    height: 400px;
+    background-color: blue
+}
+
+.franca{
+    display: flex;
+    border: 3px solid black;
+    width: 600px;
+}
+.franca-1{
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+}   
+.franca-2{
+    height: 400px;
+    background-color:  white;
+    width: 200px;
+}
+.franca-3{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.italia{
+    display: flex;
+    border: 3px solid black;
+    width: 600px;
+}
+.italia-1{
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+.italia-2{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+}
+.italia-3{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.nigeria{
+    display: flex;
+    border: 3px solid black;
+    width: 600px;
+}
+.nigeria-1{
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+.nigeria-2{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+}
+.nigeria-3{
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+
+.alemanha{
+  flex-direction: column;
+    border: 0px solid black;
+    width: 200px;
+    height: 400px;
+    display: flex;
+}
+.alemanha-1{
+    width: 600px;
+   height: 400px;
+    background-color: black;
+    flex-direction: column;
+}
+.alemanha-2{
+    width: 600px;
+   height: 400px;
+    background-color: red;
+}
+.alemanha-3{
+    width: 600px;
+    height: 400px;
+    background-color: yellow;
+}
+
+.argentina{
+    flex-direction: column;
+    border: 5px solid black;
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+.argentina-1{
+    width: 600px;
+    height: 400px;
+    background-color:  rgb(64, 189, 251);
+}
+.argentina-2{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/686/641/original/the-inca-sun-god-argentinian-flag-symbol-isolated-on-white-background-illustration-free-vector.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.argentina-3{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(64, 189, 251);
+}
+
+.holanda{
+    flex-direction: column;
+    border: 5px solid black;
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+
+.holanda-1{
+    width: 600px;
+    height: 400px;
+    background-color: red
+}
+.holanda-2{
+    width: 600px;
+    height: 400px; 
+    background-color: white;
+}
+.holanda-3{
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+}
+
+.austria{
+    flex-direction: column;
+    border: 5px solid black;
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+.austria-1{
+    width: 600px;
+    height: 400px;
+    background-color: red
+}
+.austria-2{
+    width: 600px;
+    height: 400px;
+    background-color: white
+}
+.austria-3{
+    width: 600px;
+    height: 400px;
+    background-color: red;
+}
+
+.japao{
+    border: 5px solid black;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    background-image: url(https://img.freepik.com/fotos-premium/imagem-arafed-de-uma-bola-vermelha-com-um-fundo-branco-generativo-ai_902639-50485.jpg);
+    background-size: 300px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+    
+

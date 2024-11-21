@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{ /*dois traços no ínicio e ponto&vírgula no final para "criar" a cor e <var> para utilizar a cor*/
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-Blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+
+}
+.titulo{
+    color: var(--Very-Dark-Blue);
+    font-weight: 200;
+    text-align: center;
+}
+.paragrafo{
+    color:var(--Grayish-Blue);
+    text-align: center;
+}
+
+.card-supervisor{
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.3);
+    display: inline-block; /*permite que a caixa fique do tamanho do elemento do conteudo*/
+    border-radius: 10px; 
+    padding: 30px;
+    border-top: 5px solid var(--Cyan);
+    position: relative;
+    left: 200px;
+}
+
+.card-paragrafo{
+    color: var(--Grayish-Blue);
+    margin-bottom: 10px;
+}
+.card-titulo{
+    color: var(--Very-Dark-Blue);
+    margin: 10px 0;
+}
+.icon{
+    position: relative;
+    left:200px;
+
+}

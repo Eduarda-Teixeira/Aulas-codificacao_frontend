@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 450px;
+    height: 650px;
+    background-color: aliceblue;
+    color: hsl(33, 20%, 20%);
+
+}
+img{
+    width: 450px;
+    height: 650px;
+}
+.perfume{
+    letter-spacing: 6px;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    color: hsl(158, 36%, 37%);
+}
+
+button {
+    height: 10px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    color: hsl(158, 36%, 37%);
+}
+
+button {
+    height: 10px;
+}

@@ -1,0 +1,55 @@
+:root{
+    --Green: hsl(75, 94%, 57%)
+    --White: hsl(0, 0%, 100%)
+    --Grey 700: hsl(0, 0%, 20%)
+    --Grey 800: hsl(0, 0%, 12%)
+    --Grey 900: hsl(0, 0%, 8%)
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+}
+
+div{
+    background-color: white;
+}
+
+.container{
+    width: 400px;
+    height: 750px;
+    background-color: rgb(23, 19, 19);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+a{
+    background-color: hsl(0, 0%, 12%);/*Para fazer o quadradinho*/
+    width: 300px;
+    height: 60px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 100%;
+}
+
+.localizacao{
+    color: yellow;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact form</title>
+</head>
+<body>
+    <div class="container" >
+        <h1>Contact Us</h1>
+
+        <form class="formulario" >
+            <label for="First Name">First Name</label>
+            <input id="nome1" type="text">
+
+            <label for="Last Name">Last Name</label>
+            <input id="nome2" type="text">
+
+            <label for="Email Address">Email Address</label>
+            <input id="email"  type="text">
+            
+            <fieldset>
+                <legend>Query type</legend>
+              
+                <div>
+                  <input type="radio" id="General" name="General Enquiry" value="General Enquiry" checked />
+                  <label for="General">General Enquiry</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="Support" name="Support Request" value="Support Request" />
+                  <label for="Support">Support Request</label>
+                </div>
+                </fieldset>
+                <label for="Message">Message</label>
+            <input id="message" type="text">
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

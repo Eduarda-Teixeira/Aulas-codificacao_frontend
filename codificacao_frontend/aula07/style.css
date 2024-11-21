@@ -1,0 +1,26 @@
+.container{
+    background-color: coral; /*mudar a cor do fundo*/
+    height: 75px ; /*altura*/
+    border-width: 3px; /*espessura da borda*/ /*width é largura*/
+    border-style:solid; /*estilo da borda*/
+    border-color: black; /*cor da borda*/
+    border-radius: 5px; /*arredondamento da borda*/
+    border: /*reduz tudo acima, escrevendo em ordem espessura, estilo, cor e arredondamento*/
+}
+.paragrafo{
+    background-color: blue;
+}
+
+.span-patrai{
+    color:darkgreen;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.circulo{
+    background-color: black;
+    width: 50px;  /*a largura do quadrado*/
+    height: 50px; 
+    border: 2px solid yellow;
+    border-radius: 50%;
+}

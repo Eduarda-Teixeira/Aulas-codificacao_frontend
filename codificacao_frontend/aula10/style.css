@@ -1,0 +1,32 @@
+.container{
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    padding: 30px;
+}
+
+.item-1{
+    background-color: coral;
+}
+
+.item-2{
+  background-color: cadetblue;
+}
+
+.item-3{
+    background-color: burlywood;
+}
+
+.container-2{
+    background-color: cornflowerblue;
+    height: 200px;
+}
+
+.container-3{
+    background-color: darkgoldenrod;
+    height: 200px;
+}
+
+body{
+    display: flex;
+}

@@ -1,0 +1,12 @@
+p{
+    color: red;
+}
+
+#principal{  /*no <id> usa hasthag (#)*/
+    color: blue;
+}
+
+.paragrafo{  /*no <class> usa ponto (.)*/
+    color: bisque;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+h1+p{
+    background-color: chartreuse;
+}
+.paragrafo strong{
+    background-color: purple;
+}
+.texto:first-child{
+    background-color: brown;
+}
